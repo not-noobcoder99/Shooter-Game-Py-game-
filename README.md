@@ -1,19 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Shooter Game (PyGame)</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #f7f7f7; }
-    h1 { color: #2c3e50; }
-    h2 { color: #2980b9; }
-    ul { margin-left: 2em; }
-    code, pre { background: #eef; padding: 2px 4px; border-radius: 4px; }
-    .section { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px #bbb5; padding: 1em; margin-bottom: 2em; }
-    .file-list { margin-left: 2em; }
-  </style>
-</head>
 <body>
 
   <h1>Shooter Game (PyGame)</h1>
