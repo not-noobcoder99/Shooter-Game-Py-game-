@@ -1,47 +1,112 @@
-# Shooter-Game
-Shooter-Game (PyGame)
-A 2D platformer shooter built with Python and PyGame. Survive through multiple levels packed with enemies, obstacles, and power-ups!
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shooter Game (PyGame)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f7f7f7; }
+    h1 { color: #2c3e50; }
+    h2 { color: #2980b9; }
+    ul { margin-left: 2em; }
+    code, pre { background: #eef; padding: 2px 4px; border-radius: 4px; }
+    .section { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px #bbb5; padding: 1em; margin-bottom: 2em; }
+    .file-list { margin-left: 2em; }
+  </style>
+</head>
+<body>
 
-Features
-Multiple Levels: Includes at least three levels (see level1_data.csv, level2_data.csv, level3_data.csv).
-Combat Mechanics: Shoot bullets and throw grenades to defeat enemies.
-Enemy AI: Enemies move, attack, and react to player actions.
-Power-ups: Collect health, ammo, and grenade boxes to stay alive and stocked.
-Menus: Start, exit, and restart buttons for easy navigation.
-Sound & Graphics: Custom audio (jump, shot, grenade sounds) and sprite animations for player and enemies.
-Level Completion: Progress through levels, each with unique layouts and challenges.
-Gameplay Instructions
-Movement:
+  <h1>Shooter Game (PyGame)</h1>
+  <div class="section">
+    <p>
+      <strong>Shooter Game</strong> is a 2D platformer shooter built with Python and PyGame.
+      Survive through multiple levels packed with enemies, obstacles, and power-ups!
+    </p>
+  </div>
 
-A : Move left
-D : Move right
-W : Jump
-Combat:
+  <div class="section">
+    <h2>Features</h2>
+    <ul>
+      <li>Multiple Levels: Three levels with unique layouts and increasing difficulty</li>
+      <li>Combat Mechanics: Shoot bullets and throw grenades to defeat enemies</li>
+      <li>Enemy AI: Enemies move, attack, and react to player actions</li>
+      <li>Power-ups: Collect health, ammo, and grenade boxes to stay alive and stocked</li>
+      <li>Menus: Start, exit, and restart buttons for easy navigation</li>
+      <li>Sound & Graphics: Custom audio and sprite animations for player and enemies</li>
+      <li>Level Completion: Progress through levels, each with unique challenges</li>
+    </ul>
+  </div>
 
-SPACE : Shoot
-Q : Throw grenade (if available)
-Other Controls:
+  <div class="section">
+    <h2>Gameplay Instructions</h2>
+    <ul>
+      <li><strong>Movement:</strong>
+        <ul>
+          <li><kbd>A</kbd> : Move left</li>
+          <li><kbd>D</kbd> : Move right</li>
+          <li><kbd>W</kbd> : Jump</li>
+        </ul>
+      </li>
+      <li><strong>Combat:</strong>
+        <ul>
+          <li><kbd>SPACE</kbd> : Shoot</li>
+          <li><kbd>Q</kbd> : Throw grenade (if available)</li>
+        </ul>
+      </li>
+      <li><strong>Other Controls:</strong>
+        <ul>
+          <li><kbd>ESC</kbd> : Exit game</li>
+        </ul>
+      </li>
+      <li><strong>Objective:</strong>
+        <br>
+        Navigate the world, defeat enemies, collect power-ups, and reach the exit. Completing a level loads the next one.
+      </li>
+    </ul>
+  </div>
 
-ESC : Exit game
-Objective:
-Navigate the world, defeat enemies, collect power-ups, and reach the exit. Completing a level loads the next one.
-
-Installation & Running
-Install requirements:
-Ensure Python and PyGame are installed:
-Code
-pip install pygame
-Clone this repository:
-Code
-git clone https://github.com/not-noobcoder99/Shooter-Game-Py-game-.git
-Run the game:
-Code
+  <div class="section">
+    <h2>Installation & Running</h2>
+    <ol>
+      <li>
+        <strong>Install requirements:</strong>
+        <pre>pip install pygame</pre>
+      </li>
+      <li>
+        <strong>Clone this repository:</strong>
+        <pre>git clone https://github.com/not-noobcoder99/Shooter-Game-Py-game-.git</pre>
+      </li>
+      <li>
+        <strong>Run the game:</strong>
+        <pre>
 cd Shooter-Game-Py-game-/Shooter game
 python "Shooter Game .py"
-Or use shooter.exe for Windows if available.
-File Overview
-Shooter Game .py: Main game logic and entry point.
-audio/: Sound effects and music.
-img/: Sprites and backgrounds.
-level1_data.csv, level2_data.csv, level3_data.csv: Level layouts.
-shooter.exe: Compiled executable for Windows.
+        </pre>
+        Or use <code>shooter.exe</code> for Windows if available.
+      </li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>File Overview</h2>
+    <ul class="file-list">
+      <li><code>Shooter Game .py</code>: Main game logic and entry point</li>
+      <li><code>audio/</code>: Sound effects and music</li>
+      <li><code>img/</code>: Sprites and backgrounds</li>
+      <li><code>level1_data.csv</code>, <code>level2_data.csv</code>, <code>level3_data.csv</code>: Level layouts</li>
+      <li><code>shooter.exe</code>: Compiled executable for Windows</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Credits</h2>
+    <p>
+      Developed by <a href="https://github.com/not-noobcoder99">not-noobcoder99</a>.
+      <br>
+      Feel free to fork or contribute!
+    </p>
+  </div>
+
+</body>
+</html>
+```
